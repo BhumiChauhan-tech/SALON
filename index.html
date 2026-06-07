@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CUTS by US – Premium Hair Studio | Waghodia Road, Vadodara</title>
+<meta name="description" content="CUTS by US – Vadodara's top-rated hair studio at Taksh Galaxy Mall, Waghodia Road. Expert haircuts, styling, treatments & beauty services. Rated 4.8★ by 185+ happy clients.">
+<meta name="keywords" content="hair salon Vadodara, haircut Waghodia Road, best hairdresser Vadodara, CUTS by US, hair studio Taksh Galaxy Mall">
+<link rel="canonical" href="https://cutsbyus.in">
+
+<!-- Open Graph -->
+<meta property="og:title" content="CUTS by US – Premium Hair Studio Vadodara">
+<meta property="og:description" content="Expert haircuts, styling & beauty services. Rated 4.8★ by 185+ clients.">
+<meta property="og:type" content="business.business">
+
+<!-- Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "CUTS by US",
+  "image": "",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "KGF-01, Taksh Galaxy Mall, NH-08, Waghodia Rd, nr. L&T Knowledge City, Madhavpura",
+    "addressLocality": "Vadodara",
+    "addressRegion": "Gujarat",
+    "postalCode": "390019",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 22.2850,
+    "longitude": 73.2060
+  },
+  "telephone": "+917405508037",
+  "openingHours": "Mo-Su 10:00-21:00",
+  "priceRange": "₹₹",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "185"
+  }
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #1a1410;
+    --bone: #f5f0e8;
+    --warm: #e8ddd0;
+    --gold: #c9a96e;
+    --gold-light: #e8c98a;
+    --muted: #8a7d6e;
+    --deep: #2d241c;
+    --white: #fdfaf6;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; font-size: 16px; }
+
+  body {
+    font-family: 'Jost', sans-serif;
+    background: var(--white);
+    color: var(--ink);
+    overflow-x: hidden;
+  }
+
+  /* ─── NAVBAR ─── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1.2rem 5%;
+    background: rgba(253,250,246,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(201,169,110,0.2);
+    transition: all 0.3s ease;
+  }
+  nav.scrolled { padding: 0.85rem 5%; box-shadow: 0 4px 30px rgba(26,20,16,0.08); }
+
+  .nav-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.55rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--ink);
+    text-decoration: none;
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .nav-logo span { color: var(--gold); }
+
+  .nav-links { display: flex; gap: 2.2rem; list-style: none; }
+  .nav-links a {
+    font-size: 0.8rem; font-weight: 500; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--muted);
+    text-decoration: none; transition: color 0.2s;
+    position: relative;
+  }
+  .nav-links a::after {
+    content: ''; position: absolute; bottom: -3px; left: 0; right: 0;
+    height: 1px; background: var(--gold); transform: scaleX(0);
+    transition: transform 0.25s;
+  }
+  .nav-links a:hover { color: var(--ink); }
+  .nav-links a:hover::after { transform: scaleX(1); }
+
+  .nav-cta {
+    background: var(--gold); color: var(--white) !important;
+    padding: 0.6rem 1.4rem; border-radius: 2px;
+  }
+  .nav-cta::after { display: none !important; }
+  .nav-cta:hover { background: var(--ink) !important; color: var(--white) !important; }
+
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+  .hamburger span { display: block; width: 24px; height: 1.5px; background: var(--ink); transition: all 0.3s; }
+
+  /* ─── HERO ─── */
+  #home {
+    min-height: 100vh;
+    display: grid; grid-template-columns: 1fr 1fr;
+    padding-top: 80px;
+    overflow: hidden;
+  }
+
+  .hero-left {
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 6% 5% 6% 8%;
+    position: relative;
+  }
+  .hero-left::before {
+    content: '';
+    position: absolute; top: 0; left: 0; bottom: 0; right: 0;
+    background: radial-gradient(ellipse at 20% 60%, rgba(201,169,110,0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--gold); font-weight: 500; margin-bottom: 1.5rem;
+  }
+  .hero-badge::before { content: ''; width: 28px; height: 1px; background: var(--gold); }
+
+  .hero-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(3rem, 5vw, 5.5rem);
+    font-weight: 300;
+    line-height: 1.05;
+    color: var(--ink);
+    margin-bottom: 1.5rem;
+  }
+  .hero-title em { font-style: italic; color: var(--gold); }
+
+  .hero-subtitle {
+    font-size: 0.95rem; color: var(--muted); line-height: 1.8;
+    max-width: 420px; margin-bottom: 2.5rem; font-weight: 300;
+  }
+
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  .btn-primary {
+    background: var(--ink); color: var(--white);
+    padding: 0.9rem 2rem; border-radius: 2px;
+    font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase;
+    font-weight: 500; text-decoration: none;
+    transition: all 0.25s; border: 1px solid var(--ink);
+    display: inline-flex; align-items: center; gap: 0.5rem;
+  }
+  .btn-primary:hover { background: var(--gold); border-color: var(--gold); }
+
+  .btn-outline {
+    background: transparent; color: var(--ink);
+    padding: 0.9rem 2rem; border-radius: 2px;
+    font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase;
+    font-weight: 500; text-decoration: none;
+    transition: all 0.25s; border: 1px solid var(--ink);
+    display: inline-flex; align-items: center; gap: 0.5rem;
+  }
+  .btn-outline:hover { background: var(--ink); color: var(--white); }
+
+  .hero-stats {
+    display: flex; gap: 2.5rem; margin-top: 3rem;
+    padding-top: 2rem; border-top: 1px solid var(--warm);
+  }
+  .stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem; font-weight: 300; color: var(--gold);
+    line-height: 1;
+  }
+  .stat-label { font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+
+  .hero-right {
+    position: relative; overflow: hidden;
+    background: var(--deep);
+  }
+  .hero-right::before {
+    content: 'CUTS\Aby\AUS';
+    white-space: pre;
+    position: absolute; z-index: 1; top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(4rem, 8vw, 9rem);
+    font-weight: 600;
+    color: rgba(201,169,110,0.06);
+    line-height: 0.9;
+    text-align: center;
+    letter-spacing: -0.02em;
+    pointer-events: none;
+  }
+  .hero-visual {
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    position: relative; z-index: 2;
+  }
+
+  .scissors-art {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .scissors-art svg { width: 60%; max-width: 340px; opacity: 0.12; }
+
+  .hero-img-placeholder {
+    width: 100%; height: 100%; min-height: 600px;
+    background: linear-gradient(145deg, #2d241c 0%, #1a1410 60%, #3d2f20 100%);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 1rem;
+  }
+
+  .gold-grid {
+    position: absolute; inset: 0; overflow: hidden; opacity: 0.04;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 59px, var(--gold) 59px, var(--gold) 60px),
+                      repeating-linear-gradient(90deg, transparent, transparent 59px, var(--gold) 59px, var(--gold) 60px);
+  }
+
+  .floating-tag {
+    position: absolute; bottom: 10%; left: -30px;
+    background: var(--gold); color: var(--white);
+    padding: 1rem 1.5rem; border-radius: 2px;
+    z-index: 3;
+  }
+  .floating-tag .tag-big {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem; font-weight: 600; line-height: 1;
+    display: block;
+  }
+  .floating-tag .tag-small {
+    font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase;
+    opacity: 0.85; margin-top: 3px;
+  }
+
+  .rating-pill {
+    position: absolute; top: 10%; right: -15px;
+    background: var(--white); border-radius: 50px;
+    padding: 0.8rem 1.2rem;
+    display: flex; align-items: center; gap: 0.5rem;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    z-index: 3;
+  }
+  .rating-pill .stars { color: var(--gold); font-size: 0.8rem; }
+  .rating-pill .score { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 600; }
+  .rating-pill .reviews { font-size: 0.65rem; color: var(--muted); }
+
+  /* ─── SECTION COMMON ─── */
+  section { padding: 6rem 5%; }
+  .section-label {
+    font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--gold); font-weight: 500; margin-bottom: 0.75rem;
+    display: flex; align-items: center; gap: 0.75rem;
+  }
+  .section-label::before { content: ''; width: 24px; height: 1px; background: var(--gold); }
+
+  .section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2rem, 3.5vw, 3.2rem);
+    font-weight: 300; line-height: 1.15;
+    color: var(--ink); margin-bottom: 1.5rem;
+  }
+  .section-title em { font-style: italic; color: var(--gold); }
+
+  .section-body {
+    font-size: 0.95rem; color: var(--muted); line-height: 1.85;
+    max-width: 540px; font-weight: 300;
+  }
+
+  /* ─── ABOUT ─── */
+  #about {
+    background: var(--bone);
+    display: grid; grid-template-columns: 1fr 1fr; gap: 5rem;
+    align-items: center;
+  }
+
+  .about-visual {
+    position: relative;
+  }
+  .about-card {
+    background: var(--deep); color: var(--white);
+    padding: 3rem; border-radius: 2px;
+    position: relative; overflow: hidden;
+  }
+  .about-card::after {
+    content: '"';
+    position: absolute; top: -1rem; right: 1.5rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 10rem; color: rgba(201,169,110,0.1);
+    line-height: 1;
+  }
+  .about-quote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem; font-style: italic; font-weight: 300;
+    line-height: 1.6; margin-bottom: 1.5rem; color: var(--bone);
+  }
+  .about-attr { font-size: 0.75rem; letter-spacing: 0.1em; color: var(--gold); text-transform: uppercase; }
+
+  .about-accent {
+    position: absolute; bottom: -2rem; right: -2rem;
+    width: 120px; height: 120px;
+    border: 1px solid var(--gold);
+    border-radius: 2px;
+    opacity: 0.3;
+  }
+
+  .about-list { margin: 2rem 0; display: flex; flex-direction: column; gap: 1rem; }
+  .about-item { display: flex; align-items: flex-start; gap: 1rem; }
+  .about-dot { width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 0.55rem; flex-shrink: 0; }
+  .about-item p { font-size: 0.9rem; color: var(--muted); line-height: 1.7; }
+  .about-item strong { display: block; color: var(--ink); font-weight: 500; font-size: 0.95rem; }
+
+  /* ─── SERVICES ─── */
+  #services { background: var(--white); }
+  .services-header {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    margin-bottom: 3.5rem; flex-wrap: wrap; gap: 1.5rem;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5px;
+    background: var(--warm);
+  }
+
+  .service-card {
+    background: var(--white);
+    padding: 2.5rem;
+    transition: all 0.3s;
+    position: relative; overflow: hidden;
+    cursor: default;
+  }
+  .service-card::before {
+    content: ''; position: absolute;
+    top: 0; left: 0; right: 0; height: 3px;
+    background: var(--gold); transform: scaleX(0);
+    transition: transform 0.3s;
+  }
+  .service-card:hover { background: var(--bone); }
+  .service-card:hover::before { transform: scaleX(1); }
+
+  .service-icon {
+    font-size: 1.6rem; margin-bottom: 1.2rem;
+    display: block; filter: grayscale(0.3);
+  }
+  .service-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem; font-weight: 400;
+    color: var(--ink); margin-bottom: 0.6rem;
+  }
+  .service-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.7; font-weight: 300; }
+  .service-price {
+    margin-top: 1.2rem;
+    font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--gold); font-weight: 500;
+  }
+
+  /* ─── WHY CHOOSE US ─── */
+  #why { background: var(--deep); color: var(--white); }
+  #why .section-title { color: var(--bone); }
+  #why .section-body { color: rgba(232,221,208,0.6); }
+
+  .why-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 2px; margin-top: 3.5rem;
+    background: rgba(255,255,255,0.05);
+  }
+  .why-item {
+    padding: 2.5rem;
+    background: rgba(29,20,12,0.8);
+    transition: background 0.3s;
+  }
+  .why-item:hover { background: rgba(201,169,110,0.08); }
+  .why-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem; font-weight: 300; color: rgba(201,169,110,0.2);
+    line-height: 1; margin-bottom: 1rem;
+  }
+  .why-title { font-size: 0.9rem; font-weight: 500; color: var(--bone); margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .why-text { font-size: 0.82rem; color: rgba(232,221,208,0.5); line-height: 1.7; font-weight: 300; }
+
+  /* ─── GALLERY ─── */
+  #gallery { background: var(--bone); }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 6px;
+    margin-top: 3rem;
+  }
+  .gallery-cell {
+    background: var(--warm);
+    overflow: hidden;
+    position: relative;
+    border-radius: 1px;
+  }
+  .gallery-cell:first-child { grid-row: 1 / 3; }
+  .gallery-inner {
+    width: 100%; height: 100%; min-height: 220px;
+    display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(135deg, var(--warm) 0%, var(--bone) 100%);
+    transition: transform 0.5s;
+    position: relative; overflow: hidden;
+  }
+  .gallery-cell:first-child .gallery-inner { min-height: 460px; }
+  .gallery-cell:hover .gallery-inner { transform: scale(1.03); }
+
+  .gallery-label {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    padding: 1.5rem;
+    background: linear-gradient(transparent, rgba(26,20,16,0.7));
+    color: var(--white);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem; font-style: italic;
+    opacity: 0; transition: opacity 0.3s;
+  }
+  .gallery-cell:hover .gallery-label { opacity: 1; }
+
+  .gallery-pattern {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 4rem; opacity: 0.12;
+  }
+
+  /* ─── TESTIMONIALS ─── */
+  #testimonials { background: var(--white); }
+  .testimonials-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem; margin-top: 3rem;
+  }
+  .testi-card {
+    padding: 2rem; background: var(--bone);
+    border-radius: 2px; position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .testi-card:hover { transform: translateY(-4px); box-shadow: 0 20px 50px rgba(26,20,16,0.08); }
+  .testi-quote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem; color: var(--gold); line-height: 0.8;
+    margin-bottom: 0.5rem;
+  }
+  .testi-text { font-size: 0.9rem; color: var(--ink); line-height: 1.75; font-weight: 300; font-style: italic; margin-bottom: 1.5rem; }
+  .testi-stars { color: var(--gold); font-size: 0.75rem; margin-bottom: 1rem; letter-spacing: 2px; }
+  .testi-author { display: flex; align-items: center; gap: 0.75rem; }
+  .testi-avatar {
+    width: 38px; height: 38px; border-radius: 50%;
+    background: var(--gold); display: flex; align-items: center; justify-content: center;
+    font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--white); font-weight: 600;
+  }
+  .testi-name { font-size: 0.85rem; font-weight: 500; color: var(--ink); }
+  .testi-tag { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.05em; }
+
+  /* ─── FAQ ─── */
+  #faq { background: var(--bone); }
+  .faq-list { margin-top: 2.5rem; max-width: 740px; }
+  .faq-item {
+    border-bottom: 1px solid var(--warm);
+    padding: 1.5rem 0;
+  }
+  .faq-q {
+    font-size: 0.95rem; font-weight: 500; cursor: pointer;
+    display: flex; justify-content: space-between; align-items: center;
+    color: var(--ink); user-select: none;
+  }
+  .faq-icon { font-size: 1.2rem; color: var(--gold); transition: transform 0.3s; flex-shrink: 0; }
+  .faq-a {
+    font-size: 0.88rem; color: var(--muted); line-height: 1.8;
+    max-height: 0; overflow: hidden; transition: max-height 0.35s ease, padding 0.3s;
+    font-weight: 300;
+  }
+  .faq-item.open .faq-a { max-height: 200px; padding-top: 0.75rem; }
+  .faq-item.open .faq-icon { transform: rotate(45deg); }
+
+  /* ─── CONTACT ─── */
+  #contact { background: var(--deep); color: var(--white); }
+  #contact .section-title { color: var(--bone); }
+
+  .contact-grid {
+    display: grid; grid-template-columns: 1fr 1.2fr;
+    gap: 4rem; margin-top: 3rem;
+  }
+
+  .contact-info h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem; font-weight: 300; color: var(--bone);
+    margin-bottom: 1.5rem;
+  }
+
+  .info-item {
+    display: flex; gap: 1rem; margin-bottom: 1.5rem; align-items: flex-start;
+  }
+  .info-icon {
+    width: 36px; height: 36px; flex-shrink: 0;
+    border: 1px solid rgba(201,169,110,0.3);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.9rem; color: var(--gold);
+  }
+  .info-label { font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 3px; }
+  .info-value { font-size: 0.9rem; color: rgba(232,221,208,0.8); line-height: 1.6; font-weight: 300; }
+  .info-value a { color: var(--gold-light); text-decoration: none; }
+
+  .hours-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 0.5rem; margin-top: 0.5rem;
+  }
+  .hours-row { font-size: 0.82rem; color: rgba(232,221,208,0.6); }
+  .hours-row strong { color: var(--bone); font-weight: 500; }
+
+  /* Contact Form */
+  .contact-form { display: flex; flex-direction: column; gap: 1rem; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+  .form-group label { font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(201,169,110,0.2);
+    color: var(--bone);
+    padding: 0.85rem 1rem;
+    font-family: 'Jost', sans-serif;
+    font-size: 0.88rem; font-weight: 300;
+    border-radius: 2px;
+    transition: border-color 0.2s;
+    outline: none;
+    width: 100%;
+  }
+  .form-group input:focus,
+  .form-group textarea:focus,
+  .form-group select:focus { border-color: var(--gold); background: rgba(201,169,110,0.05); }
+  .form-group textarea { resize: vertical; min-height: 100px; }
+  .form-group select option { background: var(--deep); }
+
+  .btn-submit {
+    background: var(--gold); color: var(--deep);
+    border: none; padding: 1rem 2.5rem;
+    font-family: 'Jost', sans-serif; font-size: 0.78rem;
+    letter-spacing: 0.14em; text-transform: uppercase; font-weight: 600;
+    cursor: pointer; border-radius: 2px;
+    transition: all 0.25s; align-self: flex-start;
+  }
+  .btn-submit:hover { background: var(--white); }
+
+  /* ─── MAP ─── */
+  .map-section {
+    width: 100%; height: 380px;
+    position: relative; overflow: hidden;
+    background: var(--warm);
+    border-top: 3px solid var(--gold);
+  }
+  .map-section iframe { width: 100%; height: 100%; border: none; }
+
+  /* ─── FOOTER ─── */
+  footer {
+    background: var(--ink);
+    padding: 2rem 5%;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 1rem;
+  }
+  .footer-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem; color: var(--bone); font-weight: 400;
+  }
+  .footer-logo span { color: var(--gold); }
+  .footer-copy { font-size: 0.75rem; color: rgba(232,221,208,0.4); letter-spacing: 0.05em; }
+  .footer-links { display: flex; gap: 1.5rem; }
+  .footer-links a { font-size: 0.75rem; color: rgba(232,221,208,0.5); text-decoration: none; letter-spacing: 0.08em; transition: color 0.2s; }
+  .footer-links a:hover { color: var(--gold); }
+
+  /* ─── WHATSAPP BUTTON ─── */
+  .whatsapp-btn {
+    position: fixed; bottom: 2rem; right: 2rem; z-index: 999;
+    width: 56px; height: 56px; border-radius: 50%;
+    background: #25D366; color: white;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+    text-decoration: none; transition: all 0.3s;
+    font-size: 1.5rem;
+  }
+  .whatsapp-btn:hover { transform: scale(1.1); box-shadow: 0 6px 30px rgba(37,211,102,0.5); }
+
+  /* ─── SCROLL ANIMATIONS ─── */
+  .fade-up {
+    opacity: 0; transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+  .fade-up-d1 { transition-delay: 0.1s; }
+  .fade-up-d2 { transition-delay: 0.2s; }
+  .fade-up-d3 { transition-delay: 0.3s; }
+  .fade-up-d4 { transition-delay: 0.4s; }
+
+  /* ─── MOBILE ─── */
+  @media (max-width: 900px) {
+    #home { grid-template-columns: 1fr; }
+    .hero-right { display: none; }
+    .hero-left { padding: 6% 5%; }
+
+    #about { grid-template-columns: 1fr; gap: 3rem; }
+
+    .services-grid { grid-template-columns: 1fr 1fr; }
+
+    .why-grid { grid-template-columns: 1fr 1fr; }
+
+    .testimonials-grid { grid-template-columns: 1fr; }
+
+    .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+
+    .gallery-grid { grid-template-columns: 1fr 1fr; }
+    .gallery-cell:first-child { grid-row: auto; }
+    .gallery-cell:first-child .gallery-inner { min-height: 220px; }
+
+    .nav-links { display: none; }
+    .nav-links.open {
+      display: flex; flex-direction: column;
+      position: absolute; top: 100%; left: 0; right: 0;
+      background: var(--white); padding: 1.5rem 5%;
+      border-bottom: 1px solid var(--warm);
+      box-shadow: 0 10px 30px rgba(26,20,16,0.1);
+      gap: 1rem;
+    }
+    .hamburger { display: flex; }
+
+    .form-row { grid-template-columns: 1fr; }
+
+    footer { flex-direction: column; text-align: center; }
+    .footer-links { justify-content: center; }
+  }
+
+  @media (max-width: 600px) {
+    section { padding: 4rem 5%; }
+    .services-grid { grid-template-columns: 1fr; }
+    .why-grid { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: 1fr; }
+    .hero-stats { gap: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">CUTS <span>by US</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#contact" class="nav-cta">Book Now</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu" role="button">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-left">
+    <p class="hero-badge fade-up">Vadodara's Premier Hair Studio</p>
+    <h1 class="hero-title fade-up fade-up-d1">
+      Where Every<br><em>Cut Tells</em><br>a Story
+    </h1>
+    <p class="hero-subtitle fade-up fade-up-d2">
+      Premium hair artistry in the heart of Vadodara. Trusted by 185+ clients for precision cuts, expert styling & transformative beauty treatments.
+    </p>
+    <div class="hero-actions fade-up fade-up-d3">
+      <a href="tel:+917405508037" class="btn-primary">☎ Call to Book</a>
+      <a href="#services" class="btn-outline">Explore Services</a>
+    </div>
+    <div class="hero-stats fade-up fade-up-d4">
+      <div>
+        <div class="stat-num">4.8★</div>
+        <div class="stat-label">Google Rating</div>
+      </div>
+      <div>
+        <div class="stat-num">185+</div>
+        <div class="stat-label">Happy Clients</div>
+      </div>
+      <div>
+        <div class="stat-num">7+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="gold-grid"></div>
+    <div class="hero-img-placeholder">
+      <div class="scissors-art">
+        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="100" cy="100" r="90" stroke="#c9a96e" stroke-width="1"/>
+          <circle cx="100" cy="100" r="60" stroke="#c9a96e" stroke-width="0.5" stroke-dasharray="4 4"/>
+          <line x1="100" y1="20" x2="100" y2="180" stroke="#c9a96e" stroke-width="0.5"/>
+          <line x1="20" y1="100" x2="180" y2="100" stroke="#c9a96e" stroke-width="0.5"/>
+          <text x="100" y="108" text-anchor="middle" fill="#c9a96e" font-family="Cormorant Garamond, serif" font-size="16" font-style="italic">the art of</text>
+        </svg>
+      </div>
+      <div style="position:relative;z-index:3;text-align:center;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:5.5rem;font-weight:300;color:rgba(201,169,110,0.5);line-height:0.85;letter-spacing:-0.02em;">✂</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:rgba(232,221,208,0.3);letter-spacing:0.3em;text-transform:uppercase;margin-top:1rem;">Precision · Style · Care</div>
+      </div>
+    </div>
+    <div class="floating-tag">
+      <span class="tag-big">✂</span>
+      <span class="tag-small">Expert Artistry</span>
+    </div>
+    <div class="rating-pill">
+      <div class="stars">★★★★★</div>
+      <div>
+        <div class="score">4.8</div>
+        <div class="reviews">185 reviews</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-visual fade-up">
+    <div class="about-card">
+      <p class="about-quote">"Mayur is a genius hairdresser — he knows exactly what he does. Best haircut I ever had."</p>
+      <p class="about-attr">— Safvan, Local Guide · 3 years of trust</p>
+      <div class="about-accent"></div>
+    </div>
+  </div>
+  <div class="about-content fade-up fade-up-d2">
+    <p class="section-label">Our Story</p>
+    <h2 class="section-title">Crafting Confidence,<br><em>One Cut at a Time</em></h2>
+    <p class="section-body">At CUTS by US, we believe great hair is more than aesthetics — it's an expression of who you are. Located at the vibrant Taksh Galaxy Mall on Waghodia Road, our studio blends technical expertise with a warm, welcoming atmosphere.</p>
+
+    <div class="about-list">
+      <div class="about-item">
+        <div class="about-dot"></div>
+        <p><strong>Master Stylists</strong>Led by Mayur and a team of certified hair artists with years of specialized training in modern and traditional techniques.</p>
+      </div>
+      <div class="about-item">
+        <div class="about-dot"></div>
+        <p><strong>Premium Products Only</strong>We use exclusively professional-grade, salon-quality products for treatments, coloring, and styling — gentle on your hair, stunning in results.</p>
+      </div>
+      <div class="about-item">
+        <div class="about-dot"></div>
+        <p><strong>Trusted Since Day One</strong>4 years and counting of loyal clients who return month after month. Our 4.8★ rating on Google speaks louder than words.</p>
+      </div>
+    </div>
+
+    <a href="tel:+917405508037" class="btn-primary">☎ +91 74055 08037</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-header">
+    <div>
+      <p class="section-label">What We Offer</p>
+      <h2 class="section-title">Our <em>Services</em></h2>
+    </div>
+    <a href="#contact" class="btn-outline">Book a Service</a>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card fade-up">
+      <span class="service-icon">✂</span>
+      <div class="service-name">Haircut & Styling</div>
+      <p class="service-desc">Precision cuts tailored to your face shape, hair texture, and lifestyle. From classic bobs to modern layered looks — we deliver perfection every time.</p>
+      <p class="service-price">Starting ₹200 onwards</p>
+    </div>
+    <div class="service-card fade-up fade-up-d1">
+      <span class="service-icon">🎨</span>
+      <div class="service-name">Hair Colouring</div>
+      <p class="service-desc">Global colour, highlights, balayage, ombre, and fashion shades. Using premium colour brands that ensure vibrancy with minimal damage.</p>
+      <p class="service-price">Starting ₹800 onwards</p>
+    </div>
+    <div class="service-card fade-up fade-up-d2">
+      <span class="service-icon">💆</span>
+      <div class="service-name">Hair Treatments</div>
+      <p class="service-desc">Keratin smoothing, deep conditioning, scalp therapy, and protein treatments to restore health, shine, and manageability to damaged hair.</p>
+      <p class="service-price">Starting ₹1,200 onwards</p>
+    </div>
+    <div class="service-card fade-up">
+      <span class="service-icon">💫</span>
+      <div class="service-name">Blow Dry & Finish</div>
+      <p class="service-desc">Professional blow-dry and finishing for special occasions, events, or simply because you deserve to look your best every single day.</p>
+      <p class="service-price">Starting ₹350 onwards</p>
+    </div>
+    <div class="service-card fade-up fade-up-d1">
+      <span class="service-icon">🌿</span>
+      <div class="service-name">Scalp & Hair Spa</div>
+      <p class="service-desc">Rejuvenating spa treatments combining therapeutic massage with nourishing masks to stimulate growth and restore natural luster.</p>
+      <p class="service-price">Starting ₹600 onwards</p>
+    </div>
+    <div class="service-card fade-up fade-up-d2">
+      <span class="service-icon">👑</span>
+      <div class="service-name">Bridal & Party Styling</div>
+      <p class="service-desc">Gorgeous updos, braids, curls, and event styles for your most special occasions. Trial sessions available. Let us make you unforgettable.</p>
+      <p class="service-price">Starting ₹1,500 onwards</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why">
+  <div style="max-width:600px;">
+    <p class="section-label" style="color:var(--gold);">Why Choose Us</p>
+    <h2 class="section-title" style="color:var(--bone);">The <em>CUTS by US</em><br>Difference</h2>
+    <p class="section-body">We don't just cut hair — we listen, consult, and create. Every visit is a personalised experience from the moment you walk in.</p>
+  </div>
+  <div class="why-grid">
+    <div class="why-item fade-up">
+      <div class="why-num">01</div>
+      <div class="why-title">Expert Team</div>
+      <p class="why-text">Certified stylists with specialised training in the latest cutting-edge techniques from India and abroad.</p>
+    </div>
+    <div class="why-item fade-up fade-up-d1">
+      <div class="why-num">02</div>
+      <div class="why-title">Premium Ambiance</div>
+      <p class="why-text">A thoughtfully designed, luxurious space that makes every appointment feel like a personal retreat.</p>
+    </div>
+    <div class="why-item fade-up fade-up-d2">
+      <div class="why-num">03</div>
+      <div class="why-title">Hygienic Standards</div>
+      <p class="why-text">Hospital-grade cleanliness protocols. Fresh tools for every client. Non-negotiable commitment to your safety.</p>
+    </div>
+    <div class="why-item fade-up fade-up-d3">
+      <div class="why-num">04</div>
+      <div class="why-title">Value for Money</div>
+      <p class="why-text">Premium quality at fair prices. No hidden charges, no upselling — just honest, exceptional service.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <p class="section-label fade-up">Our Work</p>
+  <h2 class="section-title fade-up fade-up-d1">Hair Transformations<br>that <em>Speak for Themselves</em></h2>
+
+  <div class="gallery-grid">
+    <div class="gallery-cell">
+      <div class="gallery-inner">
+        <div class="gallery-pattern">✂</div>
+        <div style="text-align:center;position:relative;z-index:2">
+          <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;color:var(--muted);font-style:italic;">Hair Transformation</div>
+          <div style="font-size:0.75rem;color:var(--muted);margin-top:0.5rem;letter-spacing:0.1em;text-transform:uppercase;">Before & After</div>
+        </div>
+      </div>
+      <div class="gallery-label">Dramatic Makeover</div>
+    </div>
+    <div class="gallery-cell">
+      <div class="gallery-inner">
+        <div class="gallery-pattern">🎨</div>
+        <div style="text-align:center">
+          <div style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--muted);font-style:italic;">Balayage</div>
+        </div>
+      </div>
+      <div class="gallery-label">Sun-Kissed Balayage</div>
+    </div>
+    <div class="gallery-cell">
+      <div class="gallery-inner">
+        <div class="gallery-pattern">💫</div>
+        <div style="text-align:center">
+          <div style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--muted);font-style:italic;">Styling</div>
+        </div>
+      </div>
+      <div class="gallery-label">Event Styling</div>
+    </div>
+    <div class="gallery-cell">
+      <div class="gallery-inner">
+        <div class="gallery-pattern">✨</div>
+        <div style="text-align:center">
+          <div style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--muted);font-style:italic;">Keratin</div>
+        </div>
+      </div>
+      <div class="gallery-label">Keratin Treatment</div>
+    </div>
+    <div class="gallery-cell">
+      <div class="gallery-inner">
+        <div class="gallery-pattern">👑</div>
+        <div style="text-align:center">
+          <div style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--muted);font-style:italic;">Bridal Look</div>
+        </div>
+      </div>
+      <div class="gallery-label">Bridal Updo</div>
+    </div>
+  </div>
+
+  <div style="text-align:center;margin-top:2.5rem;">
+    <p style="font-size:0.85rem;color:var(--muted);margin-bottom:1.25rem;">Visit us to see our full portfolio of transformations</p>
+    <a href="https://wa.me/917405508037" class="btn-outline" target="_blank">💬 View More on WhatsApp</a>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <p class="section-label fade-up">Client Stories</p>
+  <h2 class="section-title fade-up fade-up-d1">185+ Happy Clients<br>Can't Be <em>Wrong</em></h2>
+
+  <div class="testimonials-grid">
+    <div class="testi-card fade-up">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">Phenomenal! The best haircut I ever had. Mayur is a genius hairdresser — he knows exactly what he does. Would surely visit again and strongly recommend if you are looking for the perfect haircut.</p>
+      <div class="testi-stars">★★★★★</div>
+      <div class="testi-author">
+        <div class="testi-avatar">S</div>
+        <div>
+          <div class="testi-name">Safvan</div>
+          <div class="testi-tag">Local Guide · 166 reviews</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card fade-up fade-up-d1">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">Trusted place for hair cutting for 4 years now. Good service and reasonable pricing. The team is always consistent and the quality never drops — that's rare to find.</p>
+      <div class="testi-stars">★★★★★</div>
+      <div class="testi-author">
+        <div class="testi-avatar">A</div>
+        <div>
+          <div class="testi-name">Adnan Chouhan</div>
+          <div class="testi-tag">Local Guide · 4-year loyal client</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card fade-up fade-up-d2">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">More than a service, it was a pleasant experience. Great haircut and worth every single penny. The staff is warm, professional, and genuinely talented. Definitely coming back!</p>
+      <div class="testi-stars">★★★★★</div>
+      <div class="testi-author">
+        <div class="testi-avatar">I</div>
+        <div>
+          <div class="testi-name">Indhu IJ</div>
+          <div class="testi-tag">Verified Client</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card fade-up">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">Staff is extremely courteous and professional and the ambiance is fab. I got a full hair spa and colour — couldn't be happier. Premium services at a very fair price.</p>
+      <div class="testi-stars">★★★★★</div>
+      <div class="testi-author">
+        <div class="testi-avatar">P</div>
+        <div>
+          <div class="testi-name">Priya Sharma</div>
+          <div class="testi-tag">Regular Client</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card fade-up fade-up-d1">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">Got my bridal hair done here — they absolutely nailed the look. The trial session gave me so much confidence for my wedding day. Highly recommended for brides!</p>
+      <div class="testi-stars">★★★★★</div>
+      <div class="testi-author">
+        <div class="testi-avatar">R</div>
+        <div>
+          <div class="testi-name">Ritika Patel</div>
+          <div class="testi-tag">Bridal Client</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card fade-up fade-up-d2">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">The keratin treatment was life-changing for my frizzy hair! Results lasted months. Clean salon, skilled staff, and they explain every step. My go-to place now.</p>
+      <div class="testi-stars">★★★★★</div>
+      <div class="testi-author">
+        <div class="testi-avatar">M</div>
+        <div>
+          <div class="testi-name">Meena Desai</div>
+          <div class="testi-tag">Treatment Client</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div style="display:grid;grid-template-columns:1fr 1.5fr;gap:4rem;align-items:start;" class="faq-layout">
+    <div>
+      <p class="section-label fade-up">FAQ</p>
+      <h2 class="section-title fade-up fade-up-d1">Common<br><em>Questions</em></h2>
+      <p class="section-body fade-up fade-up-d2" style="margin-bottom:2rem;">Can't find your answer? Give us a call or drop a WhatsApp message — we're happy to help.</p>
+      <a href="https://wa.me/917405508037" class="btn-primary fade-up fade-up-d3" target="_blank">💬 Chat with Us</a>
+    </div>
+    <div class="faq-list fade-up">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Do I need an appointment? <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-a">Walk-ins are always welcome, but we recommend booking in advance — especially on weekends — to ensure you get your preferred time slot and stylist. Call us or WhatsApp to book.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          How long does a keratin treatment take? <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-a">A full keratin smoothing treatment typically takes 2–3 hours depending on hair length and thickness. We recommend setting aside half a day so there's no rush. Results last 3–5 months.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          What hair colour brands do you use? <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-a">We use only premium professional brands known for long-lasting, vibrant colour with minimal damage. Our colourists will recommend the best formula for your hair type during the consultation.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Do you offer bridal hair packages? <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-a">Absolutely! We offer comprehensive bridal packages including a trial session, wedding day styling, and pre-bridal hair treatments. Please contact us at least 2–4 weeks in advance to schedule your trial.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          Where exactly are you located? <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-a">We are at KGF-01, Taksh Galaxy Mall, NH-08, Waghodia Road, near L&T Knowledge City, Madhavpura, Vadodara — Gujarat 390019. Ample parking is available at the mall.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          What are your working hours? <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-a">We are open daily from 10:00 AM to 9:00 PM — all days of the week including Sundays and public holidays. We're here when you need us!</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="section-label" style="color:var(--gold);">Get in Touch</p>
+  <h2 class="section-title" style="color:var(--bone);">Book Your <em>Appointment</em></h2>
+
+  <div class="contact-grid">
+    <div class="contact-info fade-up">
+      <h3>Visit Us Today</h3>
+
+      <div class="info-item">
+        <div class="info-icon">📍</div>
+        <div>
+          <div class="info-label">Address</div>
+          <div class="info-value">KGF-01, Taksh Galaxy Mall, NH-08<br>Waghodia Road, nr. L&T Knowledge City<br>Madhavpura, Vadodara – 390019</div>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <div class="info-icon">📞</div>
+        <div>
+          <div class="info-label">Phone</div>
+          <div class="info-value"><a href="tel:+917405508037">+91 74055 08037</a></div>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <div class="info-icon">🕐</div>
+        <div>
+          <div class="info-label">Working Hours</div>
+          <div class="info-value">
+            <div class="hours-grid">
+              <div class="hours-row"><strong>Mon – Sun</strong></div>
+              <div class="hours-row">10:00 AM – 9:00 PM</div>
+              <div class="hours-row"><strong>All Days</strong></div>
+              <div class="hours-row">Open (incl. holidays)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <div class="info-icon">💬</div>
+        <div>
+          <div class="info-label">WhatsApp</div>
+          <div class="info-value"><a href="https://wa.me/917405508037" target="_blank">Chat with us on WhatsApp</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fade-up fade-up-d2">
+      <div class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="e.g. Priya Shah" id="cName">
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+91 98765 43210" id="cPhone">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Service Interested In</label>
+          <select id="cService">
+            <option value="">Select a service...</option>
+            <option>Haircut & Styling</option>
+            <option>Hair Colouring</option>
+            <option>Keratin Treatment</option>
+            <option>Hair Spa</option>
+            <option>Blow Dry & Finish</option>
+            <option>Bridal & Party Styling</option>
+            <option>Other / Consultation</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Preferred Date & Time</label>
+          <input type="text" placeholder="e.g. Saturday afternoon, 15 June" id="cDate">
+        </div>
+        <div class="form-group">
+          <label>Message (Optional)</label>
+          <textarea placeholder="Any special requirements or questions?" id="cMsg"></textarea>
+        </div>
+        <button class="btn-submit" onclick="sendWhatsApp()">Send via WhatsApp →</button>
+        <p style="font-size:0.75rem;color:rgba(232,221,208,0.35);margin-top:0.5rem;">This will open WhatsApp with your enquiry pre-filled.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<div class="map-section">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.8!2d73.2052!3d22.2857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc5b1a6b8b8b8%3A0x0!2sTaksh%20Galaxy%20Mall%2C%20Waghodia%20Rd%2C%20Vadodara!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+    title="CUTS by US location on Google Maps">
+  </iframe>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">CUTS <span>by US</span></div>
+  <p class="footer-copy">© 2024 CUTS by US · Vadodara, Gujarat · All rights reserved</p>
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="tel:+917405508037">Call</a>
+  </div>
+</footer>
+
+<!-- WhatsApp FAB -->
+<a href="https://wa.me/917405508037" class="whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<script>
+  // Navbar scroll
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+  // Hamburger
+  function toggleMenu() {
+    document.getElementById('navLinks').classList.toggle('open');
+  }
+  document.querySelectorAll('#navLinks a').forEach(a => {
+    a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+  });
+
+  // FAQ Accordion
+  function toggleFaq(el) {
+    const item = el.parentElement;
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  // Scroll animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  // WhatsApp enquiry
+  function sendWhatsApp() {
+    const name = document.getElementById('cName').value.trim();
+    const phone = document.getElementById('cPhone').value.trim();
+    const service = document.getElementById('cService').value;
+    const date = document.getElementById('cDate').value.trim();
+    const msg = document.getElementById('cMsg').value.trim();
+
+    if (!name || !phone) {
+      alert('Please enter your name and phone number.');
+      return;
+    }
+
+    const text = `Hello CUTS by US! 👋\n\nI'd like to book an appointment:\n\n👤 Name: ${name}\n📞 Phone: ${phone}\n✂ Service: ${service || 'Not specified'}\n🗓 Preferred Time: ${date || 'Flexible'}\n💬 Message: ${msg || 'None'}\n\nPlease confirm my appointment. Thank you!`;
+    window.open(`https://wa.me/917405508037?text=${encodeURIComponent(text)}`, '_blank');
+  }
+
+  // FAQ mobile layout fix
+  function fixFaqLayout() {
+    const faqLayout = document.querySelector('.faq-layout');
+    if (faqLayout) {
+      if (window.innerWidth < 768) {
+        faqLayout.style.gridTemplateColumns = '1fr';
+      } else {
+        faqLayout.style.gridTemplateColumns = '1fr 1.5fr';
+      }
+    }
+  }
+  fixFaqLayout();
+  window.addEventListener('resize', fixFaqLayout);
+</script>
+</body>
+</html>
